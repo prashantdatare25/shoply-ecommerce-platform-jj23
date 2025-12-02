@@ -267,7 +267,7 @@ export default function AuthLogin() {
             <svg width="18" height="18" viewBox="0 0 533.5 544.3" xmlns="http://www.w3.org/2000/svg"><path fill="#4285f4" d="M533.5 278.4c0-17.7-1.6-34.8-4.7-51.3H272v96.9h146.9c-6.4 34.6-25.5 63.9-54.4 83.6v69.1h87.8c51.4-47.3 81.2-117.3 81.2-198.3z"/><path fill="#34a853" d="M272 544.3c73.7 0 135.6-24.5 180.8-66.6l-87.8-69.1c-24.4 16.4-55.6 26.1-93 26.1-71.5 0-132-48.3-153.6-113.2H28.2v71.1C73.5 489.6 167.6 544.3 272 544.3z"/><path fill="#fbbc04" d="M118.4 327.5c-5.7-17-9-35.1-9-53.5s3.3-36.5 9-53.5V149.4H28.2C10 186.9 0 225.6 0 274c0 48.4 10 87.1 28.2 124.6l90.2-71.1z"/><path fill="#ea4335" d="M272 108.7c39.9 0 75.7 13.7 104 40.6l78-78C407.4 25.7 345.5 0 272 0 167.6 0 73.5 54.7 28.2 149.4l90.2 71.1C140 157 200.5 108.7 272 108.7z"/></svg>
             Google
           </button>
-
+{/*  */}
           <button
             onClick={() => startOAuth("github")}
             className="flex items-center gap-2 justify-center border border-gray-200 py-2 rounded-xl hover:shadow-sm"
